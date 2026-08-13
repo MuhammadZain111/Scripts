@@ -1,4 +1,8 @@
 
+echo "This scripts tells  us about the disk usage and error handling"
+
+echo "--------------------------------------------"
+
 echo " Awk command is Used for Searching the required text from the outpus or soem text  "
 
 echo "-------------------------------------------"
@@ -31,8 +35,13 @@ if [ "$USAGE" -gt 80 ]
 then
     echo "WARNING: Disk usage is high"
     echo "Disk usage is OK"
+else 
+    echo "Cant Find teh disk Usage"
 fi
 
+echo "---------------------------------------------------"
+
+echo "Scripts Executed SuccessFully"
 
 
 
